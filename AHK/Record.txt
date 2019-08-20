@@ -1,0 +1,71 @@
+
+CoordMode, Mouse, Screen
+
+Sleep, 500
+
+WinWait, ThingsBoard | Dashboard 和 3 个其他页面 ?- Microsoft Edg ahk_class ApplicationFrameWindow,, 5
+WinActivate, ThingsBoard | Dashboard 和 3 个其他页面 ?- Microsoft Edg ahk_class ApplicationFrameWindow
+
+Sleep, 500
+
+Send, {Blind}{Ctrl Down}v{Ctrl Up}
+
+Sleep, 500
+
+Send, {Blind}{Up}{Up}
+
+Sleep, 500
+
+Send, {Blind}{Enter}
+
+Sleep, 500
+
+Send, {Blind}{Tab}{Tab}{Tab}{Tab}{Tab}
+
+Sleep, 500
+
+Send, {Blind}{Tab}
+
+Sleep, 500
+
+Send, {Blind}{Shift Down}{Tab}{Shift Up}{Enter}
+
+Sleep, 500
+
+Send, {Blind}{Enter}
+
+Sleep, 500
+
+Send, {Blind}{Tab}
+
+Sleep, 500
+
+Send, {Blind}{Enter}
+
+Sleep, 500
+
+Send, {Blind}{Enter}
+
+Sleep, 500
+
+Send, {Blind}{Tab}{Ctrl Down}{Ctrl Up}{Ctrl Down}v{Ctrl Up}
+
+Sleep, 500
+
+Send, {Blind}{Tab}
+
+Sleep, 500
+
+Send, {Blind}{Enter}
+
+Sleep, 500
+
+Send, {Blind}{Tab}
+
+Sleep, 500
+
+Send, {Blind}{Shift Down}c{Shift Up}
+
+Sleep, 500
+
+Send, {Blind}{Backspace}
