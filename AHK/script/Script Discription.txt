@@ -1,0 +1,4 @@
+Seek: seek is a window for you to search
+TooltipMouseMenu: middle button will open a menu
+Search: ctrl shift c will search in google
+Programming_autocorrect: auto correct some common program word
