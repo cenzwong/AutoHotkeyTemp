@@ -1,0 +1,27 @@
+#Requires AutoHotkey v2.0
+
+; Define the hotkey (Alt_Gr+V) to trigger the script
+<^>!v::
+{
+    mytext := A_Clipboard ; Save the Clipboard as the variable
+    Sleep 750 ; Giving time for laptop to response
+    if WinExist("ahk_class TscShellContainerClass") ; Look for the remote desktop
+        WinActivate  ; Activate the window found above
+        Sleep 750 ; Save the Clipboard as the variable
+        SetKeyDelay 75, 75 ; Save the Clipboard as the variable
+        Send "{Text}" . mytext ; Send the clipboard as typing
+}
+
+; Double Click ';' will add the ; at the end of the script.
+:*?b:`;`;::
+{
+    Send "{End}"
+    Send ";"
+}
+
+; Double Click '.' will add the ; at the end of the script.
+:*?b:`.`.::
+{
+    Send "{End}"
+    Send "."
+}
